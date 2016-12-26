@@ -22,8 +22,8 @@ app.get('/', function(req, res) {
 	res.render('index.html');
 });
 
-server.listen(8080, function () {
-    console.log('bds-datathon app listening on port ' + 8080);
+server.listen(process.env.PORT, function () {
+    console.log('bds-datathon app listening on port ' + process.env.PORT);
 });
 
 
