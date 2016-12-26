@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #1B2536;
+}
+
+h1, h2, h3, p {
+	font-family: 'PT Sans';
+}
+
+h1 {
+	font-size: 5em;
+	
+}
+
+#logo {
+	min-width: 250px;
+	width: 20vw;
+	height: auto;
+}
+
+#intro {
+	color: white;
+	text-align: center;
+	height: 100vh;
+	width: 95vw;
+	position: absolute;
+	z-index: 1;
+}
+
+#intro-text {
+	margin-top: 25vh;
+}
+
+#banner {
+	min-width: 250px;
+	width: 25vw;
+	height: auto;
+	margin-bottom: 7vh;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#about {
+	background-color: white;
+
+}
+
+#about-text {
+	margin-top: 15vh;
+	margin-bottom: 15vh;
+	padding-left: 25px;
+}
+
+#particles-js {
+    height: 100vh;
+}

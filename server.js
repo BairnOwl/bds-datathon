@@ -18,6 +18,10 @@ var server = http.createServer(app);
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
+app.get('/', function(req, res) {
+	res.render('index.html');
+});
+
 server.listen(8080, function () {
     console.log('bds-datathon app listening on port ' + 8080);
 });
